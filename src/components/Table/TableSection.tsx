@@ -120,7 +120,7 @@ const TableSection = () => {
         readOnly={true}
       />
 
-      {data.length > 0 ? (<div style={{ height: 600, width: '90%', margin: 'auto' }}>
+      {data.length > 0 ? (<div style={{ height: 600, width: '90%', margin: 'auto' }} id='tableContainer' >
         <DataGrid
           rows={rows}
           columns={columns}
