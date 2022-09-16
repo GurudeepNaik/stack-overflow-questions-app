@@ -1,0 +1,137 @@
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  margin-top: 24px;
+}
+.css-1lwbda4-MuiStack-root {
+  width: auto;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.secondFieldContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.selectField {
+  display: flex;
+  align-items: center;
+}
+
+.secondFieldContainer div {
+  width: 230px;
+  height: 50px;
+}
+.selectField {
+  width: auto !important;
+  margin-top: 24px;
+}
+.selectField label {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.button {
+  width: 120px;
+  height: 45px;
+  margin-top: 24px !important;
+  font-size: 19px !important;
+  font-weight: 500 !important;
+}
+input.urlInput {
+  width: 90%;
+  height: 40px;
+  margin: 20px auto;
+  color: rgb(37, 37, 37);
+  display: block;
+  font-size: 19px;
+  opacity: 0.8;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.urlInput:focus-visible {
+  outline: none;
+}
+.spinner {
+  text-align: center;
+  margin: 100px auto;
+}
+.roller {
+  width: 75px;
+  height: 75px;
+}
+
+@media screen and (max-width: 1025px) {
+  .secondFieldContainer {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    flex-direction: column;
+  }
+  h1.heading {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+  }
+  img.logo {
+    width: 150px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    margin: 20px auto !important;
+    margin-bottom: 0px;
+  }
+  .secondFieldContainer div {
+    width: 250px;
+  }
+  .selectField {
+    flex-direction: column;
+    height: auto !important;
+  }
+  button {
+    width: 150px !important;
+  }
+}
+h2.OwnerID {
+  font-size: 23px;
+  opacity: 0.8;
+  font-style: oblique;
+  font-family: auto;
+  font-weight: 600;
+}
+img.OwnerIMG {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid #adaaaa;
+}
+a.OwnerLink {
+  font-size: 20px;
+  font-style: oblique;
+  font-family: cursive;
+  text-decoration: underline;
+  color: crimson;
+  opacity: 0.8;
+  font-weight: 900;
+}
+.MuiDataGrid-row:nth-child(odd) {
+  background: aliceblue;
+}
+.Boxstyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background-color: rgb(214, 224, 233);
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 24;
+  padding: 40px;
+}
