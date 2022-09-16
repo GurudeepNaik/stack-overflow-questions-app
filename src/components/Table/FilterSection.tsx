@@ -44,6 +44,7 @@ const FilterSection = (props: SELECTPROPS) => {
           variant="outlined"
           type="number"
           value={page}
+          className="textfield"
           onChange={(e) => setfilterData((pre: any) => ({ ...pre, page: Number(e.target.value) }))}
         />
 
@@ -55,6 +56,7 @@ const FilterSection = (props: SELECTPROPS) => {
           variant="outlined"
           type="number"
           value={pagesize}
+          className="textfield"
           onChange={(e) => setfilterData((pre: any) => ({ ...pre, pagesize: Number(e.target.value) }))}
         />
 
@@ -66,6 +68,7 @@ const FilterSection = (props: SELECTPROPS) => {
           variant="outlined"
           type="text"
           value={tagged}
+          className="textfield"
           onChange={(e) => setfilterData((pre: any) => ({ ...pre, tagged: e.target.value }))}
         />
 
